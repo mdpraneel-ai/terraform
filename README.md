@@ -102,7 +102,7 @@ resource "docker_service" "nginx_service" {
 
   endpoint_spec {
     ports {
-      published_port = 8081
+      published_port = 8082
       target_port    = 80
     }
   }
